@@ -1,0 +1,11 @@
+urllib3
+requests
+colorama
+keyboard
+InquirerPy
+aiohttp
+cloudscraper
+clear
+requests[socks]
+pywin32
+base64

@@ -1,0 +1,3 @@
+# put https proxy in IP:PORT (LOGIN:PASSWORD@IP:PORT) format
+# put socks5 proxy in socks5://IP:PORT (socks5://LOGIN:PASSWORD@IP:PORT) format
+# for more info check https://liljaba1337.gitbook.io/valchecker/usage/proxies

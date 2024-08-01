@@ -1,0 +1,44 @@
+name: Add SHA256 Hash to Release
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  add-sha256-hash:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout the code
+      uses: actions/checkout@v2
+
+    - name: Download release assets
+      id: download
+      uses: actions/download-artifact@v2
+      with:
+        path: ./downloaded_assets
+
+    - name: Calculate SHA256 hash
+      id: calculate-sha256
+      run: |
+        sha256sum ./downloaded_assets/*.zip > sha256.txt
+        cat sha256.txt
+
+    - name: Upload SHA256 hash as artifact
+      uses: actions/upload-artifact@v2
+      with:
+        name: sha256-hash
+        path: sha256.txt
+
+    - name: Update release with SHA256 hash
+      id: update-release
+      run: |
+        SHA256_HASH=$(cat sha256.txt | awk '{print $1}')
+        RELEASE_ID=$(jq --raw-output '.release.id' "$GITHUB_EVENT_PATH")
+        GH_TOKEN=${{ secrets.GITHUB_TOKEN }}
+        curl -s \
+          -X PATCH \
+          -H "Accept: application/vnd.github.v3+json" \
+          -H "Authorization: token ${GH_TOKEN}" \
+          https://api.github.com/repos/${{ github.repository }}/releases/${RELEASE_ID} \
+          -d "{\"body\": \"**SHA256 Hash:** ${SHA256_HASH}\n\n$(jq --raw-output '.release.body' $GITHUB_EVENT_PATH)\"}"

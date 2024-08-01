@@ -1,0 +1,42 @@
+name: Bug Report
+description: Create a bug report.
+labels: [bug]
+title: "[Bug] <title>"
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # READ THIS BEFORE OPENING AN ISSUE
+
+        This form is ONLY FOR DEVELOPERS.
+        Since ValChecker is a pretty buggy software that depends on you system/ip/combos/proxies, I only accept issues regarding the code.        
+        If you have any problems with retries/proxies/threads, etc. (not related to the code), please join our discord or visit the gitbook page instead.
+        If you want to add some feature, either implement it yourself and open a pull request, or suggest it on the discord server.
+
+  - type: textarea
+    id: bug-description-short
+    attributes:
+      label: Where you find this bug?
+      description: The python filename, line, any details.
+      placeholder: systems.py, in ... class, line 81
+    validations:
+      required: true
+
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: Describe the bug.
+      description: Any details you know.
+      placeholder: ...
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: agreement-check
+    attributes:
+      label: Request Agreement
+      description: .
+      options:
+        - label: I have read the requirements for opening an issue above
+          required: true

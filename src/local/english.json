@@ -1,0 +1,122 @@
+{
+    "metadata": {
+        "by": "liljaba1337",
+        "name":"English",
+        "nontypical":false
+    },
+    "tech": {
+        "internetcheck": "internet check",
+        "noconn": "no internet connection",
+        "nocert": "You don't have the required certificate installed\nPlease download and install it from https://crt.sh/?d=2835394",
+        "nextver": "\nnext version {} is available!",
+        "nextverq": "Would you like to download it now?",
+        "proxylessalerttitle": "PROXYLESS ALERT",
+        "proxylessalert": "You are trying to start the checker without using any proxies. I strongly recommend you not to do that, since it can cause your IP to get banned by Riot. To buy good proxies, you can join my Discord server.",
+        "accselection": "Press Tab to show files in directory Press Enter to select file",
+        "accselectiontitle": "Select a file with combos OR .vlchkr to continue checking:",
+        "notkintererr": "tkinter is not installed on your system. Please install it to use the GUI or use the console mode -c",
+        "inputthreads":"input number of threads (min 1 max 5000) (proxies: {})",
+        "noaccountserr":"YOU DO NOT HAVE ACCOUNTS IN THIS FILE"
+    },
+    "parts": {
+        "mainmenu": {
+            "start": "Start Checker",
+            "startsl": "Single-Line Checker",
+            "editset": "Edit Settings",
+            "sortval": "Sort Valid",
+            "testproxy": "Test Proxy",
+            "info": "Info",
+            "exit": "Exit",
+            "guide": "\nUse arrow keys to select and ENTER to confirm\nPlease select an option:",
+            "done": "done. press ENTER or the power button on your PC to exit"
+        },
+        "titles": {
+            "base": "ValChecker {} by liljaba1337",
+            "accs": "Loading Accounts",
+            "sett": "Loading Settings",
+            "prox": "Loading Proxies",
+            "assets": "Loading Assets",
+            "checker": "loading checker"
+        },
+        "slchecker": {
+            "capskinsq": "wanna capture skins?",
+            "invalidaptoken": "Your AntiPublic token is invalid or the server is down. Please ask the dev for a new one (on our discord server).",
+            "input": "account (login:password) or \"E\" to exit",
+            "rlerr": "you have been ratelimited. wait 30-60 seconds and try again",
+            "invacc": "invalid account",
+            "pbacc": "permbanned account",
+            "unknowreg": "unknown region",
+            "output": "ban until: {}\n{}#{}\nregion: {}\tcountry: {}\nrank: {}\tlvl: {}\nvp: {}\trp: {}\nlast game: {}\nprivate: {}",
+            "skins": "skins"
+        },
+        "checker":{
+            "banneduntil":"Banned until {}",
+            "permbanned":"Permanently banned",
+            "outputlines":[
+                "Full Access: {} | Level: {} | Region: {} , {}",
+                "Rank: {} | Last Played: {}",
+                "Valorant Points: {} | Radianite: {} | Skins: {}",
+                "Creation date: {}",
+                "Gamename: {}#{}",
+                "Private: {}"
+            ],
+            "ui":{
+                "valid":"Valid",
+                "banned":"Banned",
+                "tempbanned":"TempBanned",
+                "errors":"Errors",
+                "retries":"Retries",
+                "withskins":"With Skins",
+                "unverifiedmail":"Unverified Mail",
+                "private":"Private",
+                "esttime":"Estimated remaining time"
+            },
+            "finished":"finished checking. press ENTER or the power button on your PC to exit"
+        },
+        "settings":{
+            "cooldown":"Wait between checking accounts (seconds)",
+            "skipkr":"Skip korean (kr region) accounts",
+            "appart":"Participate in AntiPublic (alpha)",
+            "aptoken":"AntiPublic token",
+            "checkbanned":"Check banned accounts",
+            "accuraterank":"Use more accurate rank checker (slower)",
+            "exit":"Exit",
+            "select":"Please select an option you want to edit:",
+            "input":{
+                "cooldown":"enter the number of seconds to wait between checking accounts (min 0) >>>",
+                "skipkr":"do you want to skip KR accounts (completely useless)?",
+                "appart":"Do you want to participate in AntiPublic (alpha)?",
+                "aptoken":"Your AntiPublic token. This only matters if you wish to participate in the AntiPublic alpha test.\nYou can ask for access on our discord server.",
+                "checkban":"Do you want to check permbanned accounts like valid?",
+                "checkrank":"Do you want ValChecker to check the rank even if level is < 20?\nIt'll make it slower but more accurate for some accounts"
+            }
+        },
+        "proxychecker":{
+            "nofile":"cant find your proxy file. press enter to return",
+            "deletebad":"Do you want to delete the bad ones?",
+            "alert":"THIS TOOL CHECKS WHETHER THE CHECKER CAN CONNECT TO\nYOUR PROXIES OR NOT.\nIT DOES NOT GUARANTEE THEY WILL WORK\nIN THE MAIN CHECKER BECAUSE RIOT BANS PUBLIC PROXIES",
+            "exit":"press enter to return"
+        }
+    },
+    "data": {
+        "bool":{
+            "True":"Yes",
+            "False":"No"
+        },
+        "ranks": {
+            "unranked": "Unranked",
+            "iron": "Iron",
+            "bronze": "Bronze",
+            "silver": "Silver",
+            "gold": "Gold",
+            "platinum": "Platinum",
+            "diamond": "Diamond",
+            "ascendant": "Ascendant",
+            "immortal": "Immortal",
+            "radiant": "Radiant",
+            "locked": "Locked",
+            "unknown": "Unknown"
+        },
+        "lplt":"long time ago"
+    }
+}

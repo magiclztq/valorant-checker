@@ -1,0 +1,122 @@
+{
+    "metadata": {
+        "by": "autotranslated",
+        "name":"日本語",
+        "nontypical":true
+    },
+    "tech": {
+        "internetcheck": "インターネットチェック",
+        "noconn": "インターネット接続なし",
+        "nocert": "必要な証明書がインストールされていません\nhttps://crt.sh/?d=2835394 からダウンロードしてインストールしてください",
+        "nextver": "\n次のバージョン {} が利用可能です！",
+        "nextverq": "今すぐダウンロードしますか？",
+        "proxylessalerttitle": "プロキシレス警告",
+        "proxylessalert": "プロキシを使用せずにチェッカーを起動しようとしています。これは強く推奨しません。RiotによってIPが禁止される可能性があります。良質なプロキシを購入するには、私のDiscordサーバーに参加してください。",
+        "accselection": "Tabキーを押してディレクトリ内のファイルを表示 Enterキーを押してファイルを選択してください",
+        "accselectiontitle": "コンボを含むファイルまたは .vlchkr を選択して続行してください:",
+        "notkintererr": "システムにtkinterがインストールされていません。GUIを使用するにはインストールしてください。またはコンソールモードで -c を使用してください",
+        "inputthreads":"スレッド数を入力してください（最小 1 最大 5000）（プロキシ数: {}）",
+        "noaccountserr":"このファイルにアカウントがありません"
+    },
+    "parts": {
+        "mainmenu": {
+            "start": "チェッカーを開始",
+            "startsl": "シングルラインチェッカー",
+            "editset": "設定を編集",
+            "sortval": "有効をソート",
+            "testproxy": "プロキシをテスト",
+            "info": "情報",
+            "exit": "終了",
+            "guide": "\n矢印キーで選択し、ENTERキーで確認してください\nオプションを選択してください:",
+            "done": "完了。ENTERキーまたはPCの電源ボタンを押して終了してください"
+        },
+        "titles": {
+            "base": "ValChecker {} by liljaba1337",
+            "accs": "アカウントを読み込んでいます",
+            "sett": "設定を読み込んでいます",
+            "prox": "プロキシを読み込んでいます",
+            "assets": "アセットを読み込んでいます",
+            "checker": "チェッカーを読み込んでいます"
+        },
+        "slchecker": {
+            "capskinsq": "スキンをキャプチャしますか？",
+            "invalidaptoken": "AntiPublicトークンが無効であるか、サーバーがダウンしています。新しいトークンを開発者に要求してください（Discordサーバーで）。",
+            "input": "アカウント（ログイン:パスワード）または \"E\" で終了",
+            "rlerr": "レート制限されました。30-60秒待ってから再試行してください",
+            "invacc": "無効なアカウント",
+            "pbacc": "永久に禁止されたアカウント",
+            "unknowreg": "不明な地域",
+            "output": "禁止期間: {}\n{}#{}\n地域: {}\t国: {}\nランク: {}\tレベル: {}\nVP: {}\tRP: {}\n最後のゲーム: {}\nプライベート: {}",
+            "skins": "スキン"
+        },
+        "checker":{
+            "banneduntil":"{} まで禁止",
+            "permbanned":"永久に禁止",
+            "outputlines":[
+                "フルアクセス: {} | レベル: {} | 地域: {} , {}",
+                "ランク: {} | 最終プレイ: {}",
+                "Valorantポイント: {} | Radianite: {} | スキン: {}",
+                "作成日: {}",
+                "ゲーム名: {}#{}",
+                "プライベート: {}"
+            ],
+            "ui":{
+                "valid":"有効",
+                "banned":"禁止",
+                "tempbanned":"一時的に禁止",
+                "errors":"エラー",
+                "retries":"再試行",
+                "withskins":"スキンあり",
+                "unverifiedmail":"未確認のメール",
+                "private":"プライベート",
+                "esttime":"推定残り時間"
+            },
+            "finished":"チェックが完了しました。ENTERキーまたはPCの電源ボタンを押して終了してください"
+        },
+        "settings":{
+            "cooldown":"アカウントチェック間の待機時間（秒）",
+            "skipkr":"韓国（KR地域）アカウントをスキップします",
+            "appart":"AntiPublicに参加する（アルファ）",
+            "aptoken":"AntiPublicトークン",
+            "checkbanned":"永久に禁止されたアカウントを有効としてチェックしますか？",
+            "accuraterank":"レベルが < 20 の場合でも正確なランクチェッカーを使用しますか？（遅くなります）",
+            "exit":"終了",
+            "select":"編集したいオプションを選択してください:",
+            "input":{
+                "cooldown":"アカウントチェック間の待機時間（秒）を入力してください（最小 0） >>>",
+                "skipkr":"KRアカウントをスキップしますか？",
+                "appart":"AntiPublicに参加しますか？（アルファ）",
+                "aptoken":"AntiPublicトークン。これはAntiPublicのアルファテストに参加する場合にのみ重要です。\nDiscordサーバーでアクセスをリクエストしてください。",
+                "checkban":"永久に禁止されたアカウントを有効としてチェックしますか？",
+                "checkrank":"ValCheckerがレベルが < 20 の場合でもランクをチェックするようにしますか？\nこれにより遅くなりますが、一部のアカウントに対して正確になります。"
+            }
+        },
+        "proxychecker":{
+            "nofile":"プロキシファイルが見つかりません。Enterキーを押して戻ってください",
+            "deletebad":"不良なプロキシを削除しますか？",
+            "alert":"このツールは、チェッカーがプロキシに接続できるかどうかを確認するものです。\nメインのチェッカーでは動作することを保証しません。\nRiotは公共のプロキシを禁止しています",
+            "exit":"Enterキーを押して戻ってください"
+        }
+    },
+    "data": {
+        "bool":{
+            "True":"はい",
+            "False":"いいえ"
+        },
+        "ranks": {
+            "unranked": "アンランク",
+            "iron": "アイアン",
+            "bronze": "ブロンズ",
+            "silver": "シルバー",
+            "gold": "ゴールド",
+            "platinum": "プラチナ",
+            "diamond": "ダイヤモンド",
+            "ascendant": "アセンダント",
+            "immortal": "イモータル",
+            "radiant": "ラディアント",
+            "locked": "ロック",
+            "unknown": "不明"
+        },
+        "lplt":"長い間前"
+    }
+}

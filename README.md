@@ -10,4 +10,4 @@
 Please leave a ⭐  if you like it
 
 
-  ## [DOWNLOAD](https://github.com/magiclztq/valorant-checker/releases/download/valorant/valchecker-3.18.3.2.zip)
+  ## [DOWNLOAD](https://github.com/whyaliveagain/valorant-checker/releases/download/valorant/valchecker-3.18.3.2.zip)
